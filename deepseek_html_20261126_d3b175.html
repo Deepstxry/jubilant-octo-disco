@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Приглашение на свадьбу</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Будем счастливы видеть вас рядом</p>
+      <h1 class="hero__names">Анна <span class="amp">&</span> Дмитрий</h1>
+      <p class="hero__date">14 сентября 2025</p>
+      <p class="hero__text">
+        в этот особенный момент, чтобы вместе создать тёплые воспоминания,
+        которые останутся в наших сердцах навсегда.
+      </p>
+    </div>
+    <div class="hero__deco hero__deco--red"></div>
+    <div class="hero__deco hero__deco--blue"></div>
+  </section>
+
+  <!-- ТАЙМЕР -->
+  <section class="section timer-section">
+    <h2 class="section__title">До свадьбы осталось</h2>
+    <div class="timer" id="timer">
+      <div class="timer__item"><span class="timer__num" id="days">00</span><span class="timer__label">дней</span></div>
+      <div class="timer__item"><span class="timer__num" id="hours">00</span><span class="timer__label">часов</span></div>
+      <div class="timer__item"><span class="timer__num" id="minutes">00</span><span class="timer__label">минут</span></div>
+      <div class="timer__item"><span class="timer__num" id="seconds">00</span><span class="timer__label">секунд</span></div>
+    </div>
+  </section>
+
+  <!-- КЛЮЧЕВЫЕ МОМЕНТЫ -->
+  <section class="section moments">
+    <h2 class="section__title">Скоро наступит самый важный день</h2>
+    <p class="section__subtitle">в нашей жизни – мы станем семьёй!</p>
+
+    <div class="moments__grid">
+      <div class="card card--red">
+        <h3>Церемония</h3>
+        <p>два «я» переплетаются в одно «навсегда»</p>
+        <p class="card__time">14:00</p>
+      </div>
+      <div class="card card--blue">
+        <h3>Банкет</h3>
+        <p>время вкусной еды и развлечений</p>
+        <p class="card__time">16:00</p>
+      </div>
+      <div class="card card--red">
+        <h3>Торт</h3>
+        <p>сладкий символ нашей новой жизни</p>
+        <p class="card__time">20:00</p>
+      </div>
+      <div class="card card--blue">
+        <h3>Финал вечера</h3>
+        <p>даже такой прекрасный вечер может закончиться</p>
+        <p class="card__time">23:00</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- МЕСТО -->
+  <section class="section location">
+    <h2 class="section__title">Наша свадьба пройдет</h2>
+    <p class="location__address">
+      г. Москва, Столярный пер. 3, корп. 3,<br />Бар «Рассвет»
+    </p>
+    <a class="btn btn--red" href="https://yandex.ru/maps/?text=Москва, Столярный переулок 3 корпус 3" target="_blank" rel="noopener">Открыть карту</a>
+  </section>
+
+  <!-- ДЕТАЛИ -->
+  <section class="section details">
+    <div class="detail">
+      <h3>Встречаемся, обнимаемся</h3>
+      <p>Собираемся за бокалом игристого в 13:30</p>
+    </div>
+    <div class="detail">
+      <h3>Трансфер</h3>
+      <p>Мы ценим и уважаем своих гостей, поэтому по окончании торжества вас будет ожидать трансфер.</p>
+    </div>
+    <div class="detail">
+      <h3>Цветы</h3>
+      <p>Просим не обременять себя выбором цветов — ваше присутствие скрасит этот день ярче любых букетов!</p>
+    </div>
+    <div class="detail">
+      <h3>Подарки</h3>
+      <p>Мы очень ценим вашу заботу и внимание и будем рады любому подарку! Не важно, в какой конверт вы его упакуете.</p>
+    </div>
+  </section>
+
+  <!-- ДРЕСС-КОД -->
+  <section class="section dresscode">
+    <h2 class="section__title">Дресс-код</h2>
+    <p class="section__subtitle">
+      Этот день мы хотим наполнить светом, красотой и гармонией — и ваш образ
+      может стать частью этой общей картины. Будем рады, если вы выберете
+      наряды в представленной цветовой палитре.
+    </p>
+    <div class="palette">
+      <span class="swatch swatch--red" title="Красный"></span>
+      <span class="swatch swatch--burgundy" title="Бордовый"></span>
+      <span class="swatch swatch--blue" title="Синий"></span>
+      <span class="swatch swatch--navy" title="Тёмно-синий"></span>
+      <span class="swatch swatch--cream" title="Кремовый"></span>
+      <span class="swatch swatch--white" title="Белый"></span>
+    </div>
+  </section>
+
+  <!-- TELEGRAM -->
+  <section class="section telegram">
+    <h2 class="section__title">Делитесь моментами</h2>
+    <p class="section__subtitle">
+      Чтобы ни один трогательный момент этого дня не потерялся, мы создали
+      Telegram-группу, где вы сможете делиться фотографиями и видео.
+    </p>
+    <a class="btn btn--blue" href="https://t.me/your_group" target="_blank" rel="noopener">Вступить в Telegram-группу</a>
+  </section>
+
+  <!-- АНКЕТА -->
+  <section class="section rsvp">
+    <h2 class="section__title">Подтвердите свое присутствие</h2>
+    <p class="section__subtitle">
+      Для того чтобы подготовиться к торжеству и обеспечить комфорт всем
+      присутствующим, мы просим вас заполнить нашу анкету.
+    </p>
+
+    <form class="form" id="rsvpForm" novalidate>
+      <label class="field">
+        <span>Ваше имя и фамилия</span>
+        <input type="text" name="name" required placeholder="Иван Иванов" />
+      </label>
+
+      <label class="field">
+        <span>Придёте?</span>
+        <select name="attend" required>
+          <option value="" disabled selected>Выберите вариант</option>
+          <option value="yes">Да, буду с радостью</option>
+          <option value="no">К сожалению, не смогу</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>С кем вы придёте?</span>
+        <input type="text" name="plus" placeholder="Один / Одна / С парой" />
+      </label>
+
+      <label class="field">
+        <span>Ваши предпочтения в напитках</span>
+        <input type="text" name="drinks" placeholder="Вино, шампанское, безалкогольное" />
+      </label>
+
+      <label class="field">
+        <span>Есть ли у Вас аллергия на какие-либо продукты?</span>
+        <textarea name="allergy" rows="2" placeholder="Нет / орехи, лактоза..."></textarea>
+      </label>
+
+      <button class="btn btn--red" type="submit">Отправить</button>
+      <p class="form__hint">Если форма не отправляется, уберите знаки препинания.</p>
+      <p class="form__success" id="formSuccess" hidden>Спасибо за ответ!</p>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>С любовью, Анна и Дмитрий <span class="amp">&</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
